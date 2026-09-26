@@ -7,4 +7,10 @@ name.split(" ")
 #say hello to user
 print(f"Hello, {name}")
 
+def hello(to):
+    print("hello", to)
+    return
+
+name = input("What's your namw? ->")
+hello(name)
 
