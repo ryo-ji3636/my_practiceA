@@ -1,4 +1,4 @@
-def main():
+def main2():
     print_square(3)
 
 def print_square(size):
@@ -11,4 +11,4 @@ def print_square(size):
             print("#",end="")
         print()
 
-main()
+main2()
