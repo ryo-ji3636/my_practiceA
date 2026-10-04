@@ -1,0 +1,10 @@
+#sys
+import sys
+
+if len(sys.argv) < 2:
+    sys.exit("Too few argument")
+for arg in sys.argv[1:]:
+    sys.exit("Too many argument")
+
+
+
